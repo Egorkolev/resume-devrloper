@@ -1,0 +1,53 @@
+// main color 
+$mainColor: black; 
+$textColor: #21243D;
+$textColor_2: #000000; 
+$buttonColor: #B00000; 
+$pink: #FF6464; 
+$blue: #EDF7FA; 
+$darcblue: #142850;  
+$grey: #8695A4;
+ 
+// fontsize  
+$fontSize: 10px; 
+ 
+// transition 
+$transition: .5s ease-in-out; 
+ 
+// scrollbar vars 
+$btnColor: #331e1e; 
+$trackColor: #c49191; 
+$scrollWidth: 10px; 
+ 
+// main fonts 
+$mainFont: 'Montserrat'; 
+ 
+// min width website size 
+$minWidth: 320; 
+ 
+// max width website size 
+$maxWidth: 1920; 
+ 
+// container maxwidth size  
+$contentContainer: 1200; 
+ 
+// container padding  
+// (30 = 15px left + 15px right side, if 0 = without indent) 
+$paddingContainer: 30; 
+ 
+ 
+// container full size  
+// contentContainer + paddingContainer 
+$container: $contentContainer + $paddingContainer; 
+ 
+// responsive type  
+// 1 - without breackpoints 
+// 2 - with breackpoints  
+$responsiveType: 1; 
+ 
+ 
+// breackpoints 
+$pc: $container;  
+$table: 991.98; 
+$mobile: 767.98; 
+$smallMobile: 479.98;

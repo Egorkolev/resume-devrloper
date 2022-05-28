@@ -1,0 +1,29 @@
+html{ 
+    height: 100%; 
+} 
+body { 
+    height: 100%; 
+    font-weight: 500; 
+    font-family: $mainFont; 
+    font-size: $fontSize; 
+    // scrollbar styles 
+    @include scrollbars($scrollWidth, $btnColor, $trackColor); 
+} 
+ 
+ 
+ 
+// wrapper styles 
+.wrapper { 
+    min-height: 100%; 
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+main{ 
+    flex: 1 1 0; 
+}
+
+.container {
+    max-width: 1000px;
+}

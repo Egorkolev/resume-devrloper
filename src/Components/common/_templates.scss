@@ -1,0 +1,27 @@
+// for use @extend %templateName 
+ 
+// flex  
+%flex { 
+    display: flex; 
+} 
+ 
+%flex-between { 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+} 
+ 
+%flex-between-center{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+} 
+ 
+ 
+%flex-all-center{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}

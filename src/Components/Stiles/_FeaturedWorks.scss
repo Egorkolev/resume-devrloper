@@ -1,0 +1,34 @@
+@import '../common/common';
+.designing {
+    margin: 2rem 0;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    .image {
+        max-width: 30rem;
+        border-radius: 6px;
+        width: 100%;
+    }
+}
+
+.description {
+    max-width: 60rem;
+    flex: 1 1 35rem;
+    .year {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+            .date {
+                background-color: $darcblue;
+                color: white;
+                display: inline;
+                padding: 0.5rem 2rem;
+                border-radius: 22px;
+            }
+    }
+}
+
+.solid {
+    border: 1px solid lightgrey;
+    margin-bottom: 3rem;
+}

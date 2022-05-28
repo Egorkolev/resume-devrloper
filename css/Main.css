@@ -1,0 +1,1511 @@
+.blog {
+  margin-top: 5rem;
+}
+
+.blog .container {
+  max-width: 800px;
+}
+
+.blog .container .caption {
+  margin-bottom: 3rem;
+}
+
+.blog .container .solid {
+  margin: 2rem 0 4rem;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 10px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.caption {
+  font-size: 4.4rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.sub_Caption {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.text_caption {
+  font-size: 2.2rem;
+  line-height: 6rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.grey_text {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+  color: #8695A4;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #FF6464;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: #142850;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid black;
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-empty {
+  padding: 10px 16px;
+  background-color: transparent;
+  color: black;
+  border-radius: 12px;
+  border: 2px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button-empty:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.button-empty:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #331e1e;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c49191;
+}
+
+body {
+  scrollbar-face-color: #331e1e;
+  scrollbar-track-color: #c49191;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.contact {
+  margin-top: 5rem;
+}
+
+.contact .container {
+  max-width: 800px;
+}
+
+.contact .container .designing {
+  margin-bottom: 5rem;
+}
+
+.contact .container .designing .description {
+  max-width: 100%;
+}
+
+.contact .container .designing .description .date {
+  background-color: #FF6464;
+}
+
+.contact .sub_Caption {
+  margin: 3rem 0;
+}
+
+.reactAngle {
+  width: 100%;
+  margin: 3rem 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 10px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.caption {
+  font-size: 4.4rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.sub_Caption {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.text_caption {
+  font-size: 2.2rem;
+  line-height: 6rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.grey_text {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+  color: #8695A4;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #FF6464;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: #142850;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid black;
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-empty {
+  padding: 10px 16px;
+  background-color: transparent;
+  color: black;
+  border-radius: 12px;
+  border: 2px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button-empty:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.button-empty:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #331e1e;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c49191;
+}
+
+body {
+  scrollbar-face-color: #331e1e;
+  scrollbar-track-color: #c49191;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.designing {
+  margin: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.designing .image {
+  max-width: 30rem;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.description {
+  max-width: 60rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 35rem;
+          flex: 1 1 35rem;
+}
+
+.description .year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.description .year .date {
+  background-color: #142850;
+  color: white;
+  display: inline;
+  padding: 0.5rem 2rem;
+  border-radius: 22px;
+}
+
+.solid {
+  border: 1px solid lightgrey;
+  margin-bottom: 3rem;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 10px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.caption {
+  font-size: 4.4rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.sub_Caption {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.text_caption {
+  font-size: 2.2rem;
+  line-height: 6rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.grey_text {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+  color: #8695A4;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #FF6464;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: #142850;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid black;
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-empty {
+  padding: 10px 16px;
+  background-color: transparent;
+  color: black;
+  border-radius: 12px;
+  border: 2px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button-empty:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.button-empty:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #331e1e;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c49191;
+}
+
+body {
+  scrollbar-face-color: #331e1e;
+  scrollbar-track-color: #c49191;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.social {
+  padding: 10rem 0 3rem 0;
+}
+
+.social .socialUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.social .socialUl .socialLi img {
+  width: 2.5rem;
+}
+
+.footerText {
+  text-align: center;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 10px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.caption {
+  font-size: 4.4rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.sub_Caption {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.text_caption {
+  font-size: 2.2rem;
+  line-height: 6rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.grey_text {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+  color: #8695A4;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #FF6464;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: #142850;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid black;
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-empty {
+  padding: 10px 16px;
+  background-color: transparent;
+  color: black;
+  border-radius: 12px;
+  border: 2px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button-empty:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.button-empty:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #331e1e;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c49191;
+}
+
+body {
+  scrollbar-face-color: #331e1e;
+  scrollbar-track-color: #c49191;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.5rem 5rem;
+}
+
+.navBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navLink {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.navLink:hover {
+  color: #FF6464;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 10px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.caption {
+  font-size: 4.4rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.sub_Caption {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.text_caption {
+  font-size: 2.2rem;
+  line-height: 6rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.grey_text {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+  color: #8695A4;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #FF6464;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: #142850;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid black;
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-empty {
+  padding: 10px 16px;
+  background-color: transparent;
+  color: black;
+  border-radius: 12px;
+  border: 2px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button-empty:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.button-empty:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #331e1e;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c49191;
+}
+
+body {
+  scrollbar-face-color: #331e1e;
+  scrollbar-track-color: #c49191;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.mainScrin .mainContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 8rem 0;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  gap: 3rem;
+}
+
+.mainScrin .mainContent .caption {
+  max-width: 43rem;
+}
+
+.mainScrin .mainContent .button {
+  margin: 6rem 0;
+}
+
+.creativ_technologist {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 35rem;
+          flex: 1 1 35rem;
+}
+
+.face {
+  width: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 10px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.caption {
+  font-size: 4.4rem;
+  line-height: 6rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.sub_Caption {
+  font-size: 3rem;
+  line-height: 4.4rem;
+  font-weight: 700;
+  color: #21243D;
+}
+
+.text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.text_caption {
+  font-size: 2.2rem;
+  line-height: 6rem;
+  font-weight: 400;
+  color: #21243D;
+}
+
+.grey_text {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 400;
+  color: #8695A4;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: #FF6464;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: #142850;
+  color: white;
+  border-radius: 2px;
+  border: 0px solid black;
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button-empty {
+  padding: 10px 16px;
+  background-color: transparent;
+  color: black;
+  border-radius: 12px;
+  border: 2px solid #B00000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.button-empty:hover {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.button-empty:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #331e1e;
+}
+
+body::-webkit-scrollbar-track {
+  background: #c49191;
+}
+
+body {
+  scrollbar-face-color: #331e1e;
+  scrollbar-track-color: #c49191;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.posts {
+  background-color: #EDF7FA;
+}
+
+.posts .post_caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.posts .post_caption .link {
+  color: #00A8CC;
+}
+
+.postTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 3rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.postTitle .designSystem {
+  background-color: white;
+  max-width: 47rem;
+  padding: 4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.works {
+  margin-top: 5rem;
+}
+
+.works .container {
+  max-width: 800px;
+}
+
+.works .container .caption {
+  margin-bottom: 3rem;
+}
+
+.works .container .solid {
+  margin: 2rem 0 4rem;
+}

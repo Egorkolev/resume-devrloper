@@ -1,0 +1,26 @@
+@import '../common/common';
+
+.posts {
+    background-color: $blue;
+    .post_caption {
+        display: flex;
+        justify-content: space-between;
+        .link {
+            color: #00A8CC;
+        }
+    }
+}
+
+.postTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+    .designSystem {
+        background-color: white;
+        max-width: 47rem;
+        padding: 4rem;
+        flex: 1 1 40rem;
+    }
+}
