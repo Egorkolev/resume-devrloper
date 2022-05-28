@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/resume-devrloper/static/css/main.073c9b0a.css",
-    "main.js": "/resume-devrloper/static/js/main.0ea505cf.js",
-    "static/js/787.ec610b0e.chunk.js": "/resume-devrloper/static/js/787.ec610b0e.chunk.js",
-    "static/media/logo.svg": "/resume-devrloper/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/resume-devrloper/static/css/main.9eb759ec.css",
+    "main.js": "/resume-devrloper/static/js/main.ff629084.js",
+    "static/js/787.18618eeb.chunk.js": "/resume-devrloper/static/js/787.18618eeb.chunk.js",
+    "static/media/Rectangle5.jpg": "/resume-devrloper/static/media/Rectangle5.3c5d46ea92318c2c09d5.jpg",
+    "static/media/photo4.jpg": "/resume-devrloper/static/media/photo4.0dca6323a312cc640990.jpg",
+    "static/media/Rectangle4.jpg": "/resume-devrloper/static/media/Rectangle4.a4cf154b655bc5cf4512.jpg",
+    "static/media/Face.jpg": "/resume-devrloper/static/media/Face.95a0e0ee5480ade96e4c.jpg",
+    "static/media/photo2.jpg": "/resume-devrloper/static/media/photo2.71aec01e28bbbd577744.jpg",
+    "static/media/photo3.jpg": "/resume-devrloper/static/media/photo3.724d2e7aad2a41b42901.jpg",
+    "static/media/Rectangle6.jpg": "/resume-devrloper/static/media/Rectangle6.2cff44db5a960d77e773.jpg",
+    "static/media/photo1.jpg": "/resume-devrloper/static/media/photo1.650df9b9e13d44e47958.jpg",
+    "static/media/cv.Iegor.Koliev.doc": "/resume-devrloper/static/media/cv.Iegor.Koliev.9bacf644749fa7f92e60.doc",
+    "static/media/instagram.png": "/resume-devrloper/static/media/instagram.56d3c2ef9b43e98875c0.png",
+    "static/media/twitter.png": "/resume-devrloper/static/media/twitter.7bf809cdc926ee52e77e.png",
     "index.html": "/resume-devrloper/index.html",
-    "main.073c9b0a.css.map": "/resume-devrloper/static/css/main.073c9b0a.css.map",
-    "main.0ea505cf.js.map": "/resume-devrloper/static/js/main.0ea505cf.js.map",
-    "787.ec610b0e.chunk.js.map": "/resume-devrloper/static/js/787.ec610b0e.chunk.js.map"
+    "main.9eb759ec.css.map": "/resume-devrloper/static/css/main.9eb759ec.css.map",
+    "main.ff629084.js.map": "/resume-devrloper/static/js/main.ff629084.js.map",
+    "787.18618eeb.chunk.js.map": "/resume-devrloper/static/js/787.18618eeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0ea505cf.js"
+    "static/css/main.9eb759ec.css",
+    "static/js/main.ff629084.js"
   ]
 }
