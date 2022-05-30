@@ -1,11 +1,8 @@
 import React from 'react';
 import '../Stiles/Main.scss';
-import { Header } from '../Header';
-import { Footer } from '../Footer';
 export const Contact = () => {
     return (
         <section className="contact">
-            <Header />
             <div className="container">
                 <div className='designing'>                          
                     <div className='description'>
@@ -24,7 +21,6 @@ export const Contact = () => {
                 <img className='reactAngle' src={require('../../images/Rectangle5.jpg')} alt='reactAngle' />
                 <img className='reactAngle' src={require('../../images/Rectangle6.jpg')} alt='reactAngle' />
             </div>
-            <Footer />
         </section>
     )
 }

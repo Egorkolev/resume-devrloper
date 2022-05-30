@@ -1,13 +1,10 @@
 import React from 'react';
 import { FeaturesDescription } from '../Blocks/FeaturesDescription';
-import { Header } from '../Header';
-import { Footer } from '../Footer';
 import '../Stiles/Main.scss';
 
 export const Works = () => {
     return (
         <section className="works">
-            <Header />
             <div className="container">
             <h1 className='caption'>Works</h1>
                 <FeaturesDescription 
@@ -39,7 +36,6 @@ export const Works = () => {
                 />
                 <div className='solid'></div>
             </div>
-            <Footer />
         </section>
     )
 }
